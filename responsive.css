@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+    background-attachment: fixed;
+    display: flex;
+    font-family: "Red Hat Text";
+    flex-direction: column;
+    text-align: center;
+    margin-top: 132px;
+    width: 100%;
+    height: auto;
+}
+
+.Parent{
+    width: 1440px;
+}
+
+.Bigdots{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    user-select: none;
+}
+
+.Bigmountains{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+}
+
+.weare{
+    user-select: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Red Hat Text";
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+}
+
+.Mainbox{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    left: 376px;
+    top: 265px;
+}
+
+.Top{
+    width: 150px;
+    height: 75px;
+    position: relative;
+    background-color: #2B2E44;
+    border-radius: 5px 5px 0 0;
+}
+
+.Bottom{
+    width: 150px;
+    height: 75px;
+    background-color: #353650;
+    border-radius: 0 0 5px 5px;
+}
+
+.Day{
+    font-size: 70px;
+    position: absolute;
+    bottom: 28px;
+    background: linear-gradient(to bottom, #cd4c6c 50%, #FB5E84 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    left:50%;
+    transform:translateX(-50%)
+}
+
+.Box{
+    margin-left: 20px;
+    position: relative;
+}
+
+.Left{
+    position: absolute;
+    left: 0px;
+    top: 69px;
+}
+
+.Right{
+    position: absolute;
+    right: 0px;
+    top: 69px;
+}
+
+.Icons{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    column-gap: 56px;
+    bottom: 72px;
+    left: 652px;
+}
+
+svg path:hover {
+    fill: #FB5E84;
+    cursor: pointer;
+}
+
+.Undertext{
+    display: flex;
+    flex-direction: row;
+    column-gap: 53px;
+    position: absolute;
+    top: 166px;
+    left: 25px;
+}
+
+.Undertext p{
+    user-select: none;
+    width: 148px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #8385A9;
+    text-align: center;
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5.919px;
+}
