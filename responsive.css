@@ -12,13 +12,14 @@ body {
     font-family: "Red Hat Text";
     flex-direction: column;
     text-align: center;
-    margin-top: 132px;
-    width: 100%;
-    height: auto;
+    justify-content: center;
 }
 
 .Parent{
-    width: 1440px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-self: center;
 }
 
 .Bigdots{
@@ -29,7 +30,7 @@ body {
     user-select: none;
 }
 
-.Bigmountains{
+.Bigmountains{ 
     width: 100%;
     position: absolute;
     left: 0px;
@@ -37,6 +38,7 @@ body {
 }
 
 .weare{
+    margin-top: 132px;
     user-select: none;
     color: #FFF;
     text-align: center;
@@ -48,9 +50,11 @@ body {
 }
 
 .Mainbox{
-    position: absolute;
+    margin-top: 104px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     column-gap: 32px;
     left: 376px;
     top: 265px;
@@ -101,12 +105,12 @@ body {
 }
 
 .Icons{
-    position: absolute;
     display: flex;
     flex-direction: row;
     column-gap: 56px;
     bottom: 72px;
-    left: 652px;
+    left: 47%;
+    position: absolute;
 }
 
 svg path:hover {
@@ -118,9 +122,8 @@ svg path:hover {
     display: flex;
     flex-direction: row;
     column-gap: 53px;
-    position: absolute;
-    top: 166px;
-    left: 25px;
+    margin-top: 16px;
+    margin-left: 25px;
 }
 
 .Undertext p{
@@ -134,4 +137,13 @@ svg path:hover {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 5.919px;
+}
+
+footer{
+    background-image: url(Assets/Desktop/Mountains.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
 }

@@ -1,2 +1,2 @@
-let today = new Date().getFullYear
-console.log(today)
+// let today = new Date().getFullYear
+// console.log(today)
